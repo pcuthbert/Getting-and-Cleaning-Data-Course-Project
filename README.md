@@ -24,3 +24,10 @@ The purpose of this assignment is to create an R script called run_analysis.R th
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+
+
+
+This tidy dataset is a 180 rows by 88 column summary of the average of each mean and standard deviation measurement  for every combination of subject and activity.  It is sorted by subject in ascending order for each activity and can be viewed in R, by placing it the working directory and then executing the following code:
+
+tidydata <- read.table("tidy_data.txt", header = TRUE)
+View(data)
