@@ -18,8 +18,8 @@
         
 ## Next, read in all of the required data files
 ## Data includes the feature names & activity labels, subject ID's as well as the training and test data sets & their labels
-## For the purposes of this assignment it is assumed the UCI HAR Dataset folder has been set as the working directory
-## contains all the required datasets and subfolders and this script is being run from within it
+## For the purposes of this assignment it is assumed the assignment data has been downloaded and unzipped, the UCI HAR Dataset folder has 
+## been set as the working directory and this script has been placed within it.
 
 
 ## Feature & Activity Names
