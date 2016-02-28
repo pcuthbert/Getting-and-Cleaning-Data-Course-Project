@@ -310,7 +310,7 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
-## Transformations & Other Details
+### Transformations & Other Details
 
 1.	Training & Test sets were merged by first binding rows and then merged to each subject and activity by binding their columns
 2.	The data set measurement columns were subsetted to extract only the measurements on the mean and standard deviation for each measurement.
