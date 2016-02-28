@@ -25,7 +25,7 @@
 6. Extracts from the full dataset all of the measurements containing either a mean or standard deviation for each measurement
 7. Replaces the numerical activities with the descriptive activity names from the activity label table
 8. Converts all characters to lowercase and removes non-alphanumeric characters, thereby appropriately labelling the measurement data headers with descriptive variable names in a manner consistent with suggested best practices
-9. Using the extracted dataset above, a second, independent and tidy data set of 180 rows by 88 column is created.  It's a summary table of the average of each extracted measurement (ie. All Means & Std) for every combination of subject and activity.  It can be considered tidy because there is one variable per column and the data is sorted by subject in ascending order for each activity.
+9. Using the extracted dataset above, a second, independent and tidy data set of 180 rows by 88 columns is created.  It's a summary table of the average of each extracted measurement (ie. All Means & Std) for every combination of subject and activity.  It can be considered tidy because there is one variable per column and the data is sorted by subject in ascending order for each activity.
 10. The tidy data set will be output to the working directory and can be viewed by executing the following code:
 
   tidydata <- read.table("tidy_data.txt", header = TRUE)
