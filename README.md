@@ -34,5 +34,5 @@
 ### Notes:
 
 1. See run_analysis.R script within this repo for detailed step by step instructions and explanatory comments
-2. See CodeBook.md within this repo for details regarding the variables
+2. See CodeBook.md within this repo for additional details regarding the variables, data and transformation
 
