@@ -29,7 +29,8 @@
 10. The tidy data set will be output to the working directory and can be viewed by executing the following code:
 
   tidydata <- read.table("tidy_data.txt", header = TRUE)
-  View(data)
+  
+  View(tidydata)
 
 ### Notes:
 
