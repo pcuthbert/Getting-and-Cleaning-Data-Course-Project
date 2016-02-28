@@ -1,21 +1,6 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be required to submit:
-
-  1) a tidy data set as described below
-  2) a link to a Github repository with your script for performing the analysis, and 
-  3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
-  4) You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
-
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
-
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
-Here are the data for the project:
-
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-The purpose of this assignment is to create an R script called run_analysis.R that does the following:
+  The purpose of this assignment is to create an R script called run_analysis.R that does the following:
 
 1.	Merges the training and the test sets to create one data set.
 2.	Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -24,10 +9,29 @@ The purpose of this assignment is to create an R script called run_analysis.R th
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+## Getting Started 
+
+1. For the purposes of this assignment it is assumed the assignment data source has been set downloaded, extracted and the UCI HAR dataset folder has been set as the working directory
+2. It is assumed the run_analysis.R script has been saved to and being sourced from the working directory
 
 
+## The run_analysis.R script overview:
 
-This tidy dataset is a 180 rows by 88 column summary of the average of each mean and standard deviation measurement  for every combination of subject and activity.  It is sorted by subject in ascending order for each activity and can be viewed in R, by placing it the working directory and then executing the following code:
+1. Checks for the required packages that will be used, installs and/or loads as necessary
+2. Reads in all of the measurement and activity names
+3. Reads in all 6 of the required subject, activity and measurement data tables for both the training and test data sets 
+4. Merges the training and the test sets together using rbind() to create one data set for subjects, activity and measurement
+5. Merges those three datasets using cbind() to create one completely merged dataset 
+6. Extracts from the full dataset all of the measurements containing either a mean or standard deviation for each measurement
+7. Replaces the numerical activities with the descriptive activity names from the activity label table
+8. Converts all characters to lowercase and removes non-alphanumeric characters, thereby appropriately labelling the measurement data headers with descriptive variable names in a manner consistent with suggested best practices
+9. Using the extracted dataset above, a second, independent and tidy data set of 180 rows by 88 column is created.  It's a summary table of the average of each extracted measurement (ie. All Means & Std) for every combination of subject and activity.  It can be considered tidy because there is one variable per column and the data is sorted by subject in ascending order for each activity.
+10. The tidy data set will be output to the working directory and can be viewed by executing the following code:
 
-tidydata <- read.table("tidy_data.txt", header = TRUE)
-View(data)
+  tidydata <- read.table("tidy_data.txt", header = TRUE)
+  View(data)
+
+
+** See run_analysis.R script within this repo for detailed step by step instructions and explanatory comments **
+ 
+
