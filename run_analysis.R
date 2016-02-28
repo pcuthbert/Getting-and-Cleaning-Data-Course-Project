@@ -70,8 +70,7 @@
 ## Converts all characters to lowercase and removes non-alphanumeric characters 
 
         names(final_data) <- tolower(gsub("[^[:alpha:]]","",names(final_data)))
-        features_edited <- names(final_data)
-
+        
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
