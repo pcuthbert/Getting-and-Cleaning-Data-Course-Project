@@ -27,7 +27,7 @@ This codebook serves to describe the variables, the data and any transformations
 ### c) Measurements
 
 - The following 86 variables follow the naming conventions and abbreviation descriptions provided in the assignment README.txt and Features.txt files
-- The variable names have been altered by changing all characters to lower case and removing all non-alphanumerics to follow some recommended guidelines with respect to column header labelling (i.e descriptive in nature and consistent in format) 
+- The original variable names have been altered to the list below by changing all characters to lower case and removing all non-alphanumerics to follow some recommended guidelines with respect to column header labelling (i.e descriptive in nature and consistent in format) 
 
 
 tbodyaccmeanx
@@ -203,7 +203,20 @@ angleygravitymean
 anglezgravitymean
 
 
-## Data (Sourced from Assignment README.txt)
+## Data 
+
+### Project Data & Description
+
+A full description is available at the site where the data was obtained:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Here are the data for the project:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+### Additional Data Information Sourced from Assignment README.txt & Feature.txt
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -297,8 +310,12 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
-
 ## Transformations & Other Details
 
+1.	Training & Test sets were merged by first binding rows and then merged to each subject and activity by binding their columns
+2.	The data set measurement columns were subsetted to extract only the measurements on the mean and standard deviation for each measurement.
+3.	Descriptive activity names replaced their numercial index values
+4.	The measurement labels were changed to all lower case and all non-alpha characters removed to create consistently formatted & descriptive variable names
+5.	From the data set of 10299 observations across 561 columns a second, independent tidy data set of 180 rows and 88 columns was created summarizing the average of each extracted variable measurement for each activity and each subject.
 
 
