@@ -13,10 +13,15 @@ This codebook serves to describe the variables, the data and any transformations
 -> There were one of six activities performed by the volunteers
 
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
 
 ### c) Measurements
@@ -26,125 +31,176 @@ This codebook serves to describe the variables, the data and any transformations
 
 
 tbodyaccmeanx
+
 tbodyaccmeany
+
 tbodyaccmeanz
 
 tbodyaccstdx
+
 tbodyaccstdy
+
 tbodyaccstdz
 
 tgravityaccmeanx
+
 tgravityaccmeany
+
 tgravityaccmeanz
 
 tgravityaccstdx
+
 tgravityaccstdy
+
 tgravityaccstdz
 
 tbodyaccjerkmeanx
+
 tbodyaccjerkmeany
+
 tbodyaccjerkmeanz
 
 tbodyaccjerkstdx
+
 tbodyaccjerkstdy
+
 tbodyaccjerkstdz
 
 tbodygyromeanx
+
 tbodygyromeany
+
 tbodygyromeanz
 
 tbodygyrostdx
+
 tbodygyrostdy
+
 tbodygyrostdz
 
 tbodygyrojerkmeanx
+
 tbodygyrojerkmeany
+
 tbodygyrojerkmeanz
 
 tbodygyrojerkstdx
+
 tbodygyrojerkstdy
+
 tbodygyrojerkstdz
 
 tbodyaccmagmean
+
 tbodyaccmagstd
 
 tgravityaccmagmean
+
 tgravityaccmagstd
 
 tbodyaccjerkmagmean
+
 tbodyaccjerkmagstd
 
 tbodygyromagmean
+
 tbodygyromagstd
 
 tbodygyrojerkmagmean
+
 tbodygyrojerkmagstd
 
 fbodyaccmeanx
+
 fbodyaccmeany
+
 fbodyaccmeanz
 
 fbodyaccstdx
+
 fbodyaccstdy
+
 fbodyaccstdz
 
 fbodyaccmeanfreqx
+
 fbodyaccmeanfreqy
+
 fbodyaccmeanfreqz
 
 fbodyaccjerkmeanx
+
 fbodyaccjerkmeany
+
 fbodyaccjerkmeanz
 
 fbodyaccjerkstdx
+
 fbodyaccjerkstdy
+
 fbodyaccjerkstdz
 
 fbodyaccjerkmeanfreqx
+
 fbodyaccjerkmeanfreqy
+
 fbodyaccjerkmeanfreqz
 
 fbodygyromeanx
+
 fbodygyromeany
+
 fbodygyromeanz
 
 fbodygyrostdx
+
 fbodygyrostdy
+
 fbodygyrostdz
 
 fbodygyromeanfreqx
+
 fbodygyromeanfreqy
+
 fbodygyromeanfreqz
 
 fbodyaccmagmean
+
 fbodyaccmagstd
+
 fbodyaccmagmeanfreq
 
 fbodybodyaccjerkmagmean
+
 fbodybodyaccjerkmagstd
+
 fbodybodyaccjerkmagmeanfreq
 
 fbodybodygyromagmean
+
 fbodybodygyromagstd
+
 fbodybodygyromagmeanfreq
 
 fbodybodygyrojerkmagmean
+
 fbodybodygyrojerkmagstd
+
 fbodybodygyrojerkmagmeanfreq
 
 angletbodyaccmeangravity
 
 angletbodyaccjerkmeangravitymean
+
 angletbodygyromeangravitymean
+
 angletbodygyrojerkmeangravitymean
 
 anglexgravitymean
+
 angleygravitymean
+
 anglezgravitymean
-
-
-
-
 
 
 ## Data (Sourced from Assignment README.txt)
