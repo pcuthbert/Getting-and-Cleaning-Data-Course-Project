@@ -31,7 +31,8 @@
   tidydata <- read.table("tidy_data.txt", header = TRUE)
   View(data)
 
+### Notes:
 
-** See run_analysis.R script within this repo for detailed step by step instructions and explanatory comments **
- 
+1. See run_analysis.R script within this repo for detailed step by step instructions and explanatory comments
+2. See CodeBook.md within this repo for details regarding the variables
 
